@@ -40,7 +40,7 @@ app.post("/", function(req, res){
         url: "https://us19.api.mailchimp.com/3.0/lists/281f22a4ca",
         method: "POST",
         headers: {
-            "Authorization": "mamud 768e24097b20b3c79e844d357aa2bd3c-us19"
+            "Authorization": "mamud api-key"
         },
         body: jsonData
     }
